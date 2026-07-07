@@ -1,7 +1,7 @@
 <?php
 
 use Livewire\Component;
-use Model\Intervention;
+use App\Models\Intervention;
 new class extends Component
 {
     public string $full_name = '';
@@ -159,6 +159,16 @@ new class extends Component
                 </button>
 
             </form>
+
+            @if ($submitted)
+            <div class="mb-6 flex items-center gap-3 mt-4 p-4 bg-lime-50 border border-lime-200 text-forest-800 rounded-xl">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#679d20" stroke-width="2" class="shrink-0">
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M8 12l3 3 5-6" />
+                </svg>
+                <span class="text-sm font-medium">Votre demande a été envoyée avec succès !</span>
+            </div>
+            @endif
         </div>
     </div>
 </section>

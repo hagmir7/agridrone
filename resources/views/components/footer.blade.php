@@ -108,12 +108,16 @@
 
             <!-- Map side -->
             <div class="relative rounded-2xl overflow-hidden shadow-xl group min-h-[320px] lg:min-h-0">
-                <img src="https://picsum.photos/seed/agridrone-map1/700/700" alt="Localisation AgriDrone Atlas"
-                    class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500">
+
+                    <iframe class="w-full h-full grayscale-[15%]"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-2.98%2C35.14%2C-2.90%2C35.20&layer=mapnik&marker=35.1688%2C-2.9330"
+                        style="border:0;">
+                    </iframe>
                 <div class="absolute inset-0 bg-gradient-to-t from-forest-900/80 via-transparent to-transparent"></div>
                 <div class="absolute bottom-5 left-5 right-5">
                     <p class="text-white font-semibold mb-3">AgriDrone Atlas — Fès-Meknès</p>
-                    <a href="#"
+                    <a href="https://www.openstreetmap.org/export/embed.html?bbox=-2.98%2C35.14%2C-2.90%2C35.20&layer=mapnik&marker=35.1688%2C-2.9330"
+                        target="_blank"
                         class="bg-white text-forest-800 text-sm font-semibold rounded-lg px-4 py-2.5 flex items-center justify-center gap-2 hover:bg-lime-50 transition w-fit">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
@@ -130,13 +134,11 @@
     <!-- Bottom bar -->
     <div class="relative bg-forest-900/60 border-t border-white/10 backdrop-blur-sm">
         <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <a href="#" class="flex items-center gap-2 font-bold">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="#8fc93a">
-                    <path d="M12 2C9 6 8 9 8 12c0 2.2 1.8 4 4 4s4-1.8 4-4c0-3-1-6-4-10z" />
-                </svg>
-                AgriDrone <span class="text-[9px] font-medium tracking-[0.2em] text-white/60">ATLAS</span>
-            </a>
-            <p class="text-xs text-white/60">© 2024 AgriDrone Atlas. Tous droits réservés.</p>
+           <a href="/" class="group">
+            <img src="/imgs/logo-transparent.png"
+                class="w-20 transition duration-500 group-hover:scale-105 group-hover:-rotate-2" alt="">
+        </a>
+            <p class="text-sm text-white/60">© 2026 AgriDrone Atlas. Tous droits réservés.</p>
             <div class="flex items-center gap-3">
                 <a href="#" aria-label="Facebook"
                     class="w-8 h-8 rounded-full bg-white/5 hover:bg-lime-500 flex items-center justify-center transition">
@@ -154,27 +156,14 @@
                         <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
                     </svg>
                 </a>
-                <a href="#" aria-label="WhatsApp"
+                <a href="https://wa.me/212624366981" aria-label="WhatsApp"
                     class="w-8 h-8 rounded-full bg-white/5 hover:bg-lime-500 flex items-center justify-center transition">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="text-white">
                         <path
                             d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.7.9-.3.2-.5.1a6.5 6.5 0 0 1-1.9-1.2 7 7 0 0 1-1.3-1.6c-.1-.2 0-.4.1-.5l.4-.4a1.6 1.6 0 0 0 .2-.4.4.4 0 0 0 0-.4c-.1-.1-.5-1.2-.7-1.7s-.4-.4-.5-.4h-.5a.9.9 0 0 0-.6.3 2.7 2.7 0 0 0-.9 2 4.6 4.6 0 0 0 1 2.5 10.6 10.6 0 0 0 4 3.6c.6.2 1 .4 1.4.5a3.4 3.4 0 0 0 1.5.1 2.5 2.5 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.4-.3z" />
                     </svg>
                 </a>
-                <a href="#" aria-label="YouTube"
-                    class="w-8 h-8 rounded-full bg-white/5 hover:bg-lime-500 flex items-center justify-center transition">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="text-white">
-                        <path
-                            d="M22.5 6.2a2.8 2.8 0 0 0-2-2C18.9 3.7 12 3.7 12 3.7s-6.9 0-8.5.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 5.8 2.8 2.8 0 0 0 2 2c1.6.5 8.5.5 8.5.5s6.9 0 8.5-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5z" />
-                    </svg>
-                </a>
-                <a href="#" aria-label="LinkedIn"
-                    class="w-8 h-8 rounded-full bg-white/5 hover:bg-lime-500 flex items-center justify-center transition">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="text-white">
-                        <path
-                            d="M6.9 8.4H3.6V21h3.3zM5.3 3a1.9 1.9 0 1 0 0 3.9 1.9 1.9 0 0 0 0-3.9zM21 21v-7.1c0-3.4-1.8-5-4.3-5a3.7 3.7 0 0 0-3.3 1.8V8.4H10v12.6h3.4v-6.3c0-1.7.3-3.3 2.4-3.3s2 1.9 2 3.4V21z" />
-                    </svg>
-                </a>
+
             </div>
         </div>
     </div>

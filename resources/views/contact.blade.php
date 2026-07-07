@@ -109,7 +109,7 @@
     <!-- ============ NAV ============ -->
     <header class="bg-forest-800 sticky top-0 z-30">
         <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
-            <a href="#" class="flex items-center gap-2 text-white font-display font-bold text-lg">
+            <a href="/" class="flex items-center gap-2 text-white font-display font-bold text-lg">
                 AgriDrone
             </a>
             <button id="menuBtn" class="lg:hidden text-white">
@@ -118,24 +118,19 @@
                 </svg>
             </button>
             <ul class="hidden lg:flex items-center gap-7 text-sm font-medium text-white">
-                <li><a href="#" class="hover:text-lime-400 transition">Accueil</a></li>
-                <li><a href="#" class="hover:text-lime-400 transition">À propos</a></li>
-                <li><a href="#" class="hover:text-lime-400 transition">Services</a></li>
-                <li><a href="#" class="hover:text-lime-400 transition">Projets</a></li>
-                <li><a href="#" class="hover:text-lime-400 transition">Flotte</a></li>
-                <li><a href="#" class="hover:text-lime-400 transition">Galerie</a></li>
-                <li><a href="#" class="hover:text-lime-400 transition">FAQ</a></li>
-                <li><a href="#" class="text-lime-400">Contact</a></li>
+                <li><a href="/" class="hover:text-lime-400 transition">Accueil</a></li>
+                <li><a href="/about" class="hover:text-lime-400 transition">À propos</a></li>
+                <li><a href="/#services" class="hover:text-lime-400 transition">Services</a></li>
+                <li><a href="/#faq" class="hover:text-lime-400 transition">FAQ</a></li>
+                <li><a href="/contact" class="text-lime-400">Contact</a></li>
             </ul>
         </nav>
         <ul id="mobileMenu"
             class="hidden lg:hidden flex-col gap-1 bg-forest-800 mx-4 mb-4 rounded-xl px-6 py-4 text-white font-medium">
-            <li><a href="#" class="block py-2 border-b border-white/10">Accueil</a></li>
-            <li><a href="#" class="block py-2 border-b border-white/10">À propos</a></li>
-            <li><a href="#" class="block py-2 border-b border-white/10">Services</a></li>
-            <li><a href="#" class="block py-2 border-b border-white/10">Flotte</a></li>
-            <li><a href="#" class="block py-2 border-b border-white/10">Processus</a></li>
-            <li><a href="#" class="block py-2">Contact</a></li>
+            <li><a href="/" class="block py-2 border-b border-white/10">Accueil</a></li>
+            <li><a href="/about" class="block py-2 border-b border-white/10">À propos</a></li>
+            <li><a href="/#services" class="block py-2 border-b border-white/10">Services</a></li>
+            <li><a href="/contact" class="block py-2">Contact</a></li>
         </ul>
     </header>
 
@@ -164,22 +159,43 @@
     <section class="max-w-7xl mx-auto px-6 -mt-12 relative z-10">
         <div class="grid sm:grid-cols-3 gap-4">
             <div class="bg-white rounded-2xl p-6 shadow-lg shadow-forest-900/5">
-                <span
-                    class="w-11 h-11 rounded-full bg-forest-800/5 flex items-center justify-center text-lg mb-3">📞</span>
+                <span class="w-11 h-11 rounded-full bg-forest-800/5 flex items-center justify-center text-lg mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                </span>
                 <p class="text-xs uppercase tracking-wide text-forest-700/60 font-semibold mb-1">Téléphone</p>
-                <p class="font-display font-semibold">+212 5 36 12 34 56</p>
+                <p class="font-display font-semibold">+212 624 366 981</p>
             </div>
             <div class="bg-white rounded-2xl p-6 shadow-lg shadow-forest-900/5">
-                <span
-                    class="w-11 h-11 rounded-full bg-forest-800/5 flex items-center justify-center text-lg mb-3">✉️</span>
+                <span class="w-11 h-11 rounded-full bg-forest-800/5 flex items-center justify-center text-lg mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                        <path d="M3 7l9 6l9 -6" />
+                    </svg>
+                </span>
                 <p class="text-xs uppercase tracking-wide text-forest-700/60 font-semibold mb-1">Email</p>
-                <p class="font-display font-semibold">contact@agridrone.ma</p>
+                <p class="font-display font-semibold">agridroneatlas@gmail.com</p>
             </div>
             <div class="bg-white rounded-2xl p-6 shadow-lg shadow-forest-900/5">
-                <span
-                    class="w-11 h-11 rounded-full bg-forest-800/5 flex items-center justify-center text-lg mb-3">📍</span>
+                <span class="w-11 h-11 rounded-full bg-forest-800/5 flex items-center justify-center text-lg mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" />
+                    </svg>
+                </span>
                 <p class="text-xs uppercase tracking-wide text-forest-700/60 font-semibold mb-1">Base opérationnelle</p>
-                <p class="font-display font-semibold">Zone agricole de la Vallée, Nador</p>
+                <p class="font-display font-semibold">Doir Ait frigou guigou</p>
             </div>
         </div>
     </section>
@@ -187,78 +203,7 @@
     <!-- ============ MISSION TICKET FORM ============ -->
     <section class="max-w-7xl mx-auto px-6 py-20">
         <div class="ticket grid md:grid-cols-[1.3fr_1fr] overflow-hidden">
-
-            <!-- form side -->
-            <form class="p-8 md:p-10">
-                <div class="flex items-center justify-between mb-8">
-                    <div>
-                        <p class="text-xs uppercase tracking-widest text-lime-500 font-semibold">Fiche de mission</p>
-                        <h2 class="font-display font-bold text-2xl text-forest-900">Décrivez votre parcelle</h2>
-                    </div>
-                    <span
-                        class="hidden sm:block stamp border-2 border-forest-800/20 text-forest-800/40 text-[10px] font-bold uppercase tracking-widest rounded-full px-3 py-1">
-                        À traiter
-                    </span>
-                </div>
-
-                <div class="grid sm:grid-cols-2 gap-x-6 gap-y-6">
-                    <div>
-                        <label class="block text-xs font-semibold text-forest-700/60 uppercase tracking-wide mb-2">Nom
-                            complet</label>
-                        <input type="text" placeholder="Votre nom"
-                            class="field w-full py-2 text-forest-900 placeholder:text-forest-900/30">
-                    </div>
-                    <div>
-                        <label
-                            class="block text-xs font-semibold text-forest-700/60 uppercase tracking-wide mb-2">Exploitation
-                            agricole</label>
-                        <input type="text" placeholder="Nom de la ferme"
-                            class="field w-full py-2 text-forest-900 placeholder:text-forest-900/30">
-                    </div>
-                    <div>
-                        <label
-                            class="block text-xs font-semibold text-forest-700/60 uppercase tracking-wide mb-2">Téléphone</label>
-                        <input type="tel" placeholder="+212 6 00 00 00 00"
-                            class="field w-full py-2 text-forest-900 placeholder:text-forest-900/30">
-                    </div>
-                    <div>
-                        <label
-                            class="block text-xs font-semibold text-forest-700/60 uppercase tracking-wide mb-2">Superficie
-                            (ha)</label>
-                        <input type="number" placeholder="Ex. 25"
-                            class="field w-full py-2 text-forest-900 placeholder:text-forest-900/30">
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label
-                            class="block text-xs font-semibold text-forest-700/60 uppercase tracking-wide mb-2">Service
-                            souhaité</label>
-                        <select class="field w-full py-2 text-forest-900 bg-transparent">
-                            <option>Pulvérisation de précision</option>
-                            <option>Cartographie et imagerie aérienne</option>
-                            <option>Épandage de semences</option>
-                            <option>Diagnostic de culture</option>
-                            <option>Autre demande</option>
-                        </select>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label
-                            class="block text-xs font-semibold text-forest-700/60 uppercase tracking-wide mb-2">Détails
-                            de la mission</label>
-                        <textarea rows="3"
-                            placeholder="Type de culture, période souhaitée, contraintes particulières..."
-                            class="field w-full py-2 text-forest-900 placeholder:text-forest-900/30 resize-none"></textarea>
-                    </div>
-                </div>
-
-                <button type="submit"
-                    class="mt-8 inline-flex items-center gap-2 bg-forest-800 hover:bg-forest-700 transition text-white pl-6 pr-5 py-4 rounded-full font-semibold">
-                    Envoyer la demande
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                        <path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round"></path>
-                    </svg>
-                </button>
-            </form>
-
+           @livewire('contact-form')
             <!-- summary / stub side -->
             <div class="tear-line bg-forest-800 text-white p-8 md:p-10 flex flex-col justify-between">
                 <div>

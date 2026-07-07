@@ -5,6 +5,8 @@
 
     <!-- NAV -->
 
+
+
     <!-- HEADLINE -->
     <div class="relative z-10 max-w-7xl mx-auto px-6 pt-[174px] pb-28 md:pb-36">
         <div class="max-w-xl pb-10">
@@ -29,14 +31,14 @@
 
         </div>
         <div class="flex flex-wrap items-center gap-4 mt-8">
-            <a href="#"
+            <a href="/#demande"
                 class="flex items-center gap-2 bg-[#123524] hover:bg-[#1b4a32] transition text-white pl-6 pr-5 py-4 rounded-full font-semibold">
                 Découvrir nos services
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                     <path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round"></path>
                 </svg>
             </a>
-            <a href="#"
+            <a href="https://wa.me/212624366981" target="_blanck"
                 class="flex items-center gap-2 bg-white border border-black/10 hover:border-[#3f8a4f] transition px-6 py-4 rounded-full font-semibold text-[#14281d]">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366">
                     <path
@@ -57,7 +59,18 @@
             class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-4 text-white border border-white backdrop-blur-sm rounded-2xl p-3 md:p-4 divide-x divide-white/40">
             <div class="flex items-center gap-3 justify-center md:justify-start md:pl-4">
                 <span
-                    class="w-14 h-14 rounded-full border-2 border-white bg-white flex items-center justify-center text-xl shrink-0">🌾</span>
+                    class="w-14 h-14 rounded-full border-2 border-white bg-white flex items-center justify-center text-xl shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" class="text-green-600" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-tree">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 13l-2 -2" />
+                    <path d="M12 12l2 -2" />
+                    <path d="M12 21v-13" />
+                    <path
+                        d="M9.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4l-.176 -.005" />
+                </svg>
+                </span>
                 <div class="text-left">
                     <p class="font-bold text-md mb-3 leading-none">500+</p>
                     <p class="text-xs opacity-90 mt-1">Hectares traités</p>
@@ -88,7 +101,17 @@
             </div>
             <div class="flex items-center gap-3 justify-center md:justify-start md:pl-4">
                 <span
-                    class="w-14 h-14 rounded-full border-2 border-white bg-white flex items-center justify-center text-xl shrink-0">😊</span>
+                    class="w-14 h-14 rounded-full border-2 border-white bg-white flex items-center justify-center text-xl shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-green-600" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-mood-happy">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 9l.01 0" />
+                    <path d="M15 9l.01 0" />
+                    <path d="M8 13a4 4 0 1 0 8 0h-8" />
+                </svg>
+                </span>
                 <div class="text-left">
                     <p class="font-bold text-md mb-3 leading-none">98 %</p>
                     <p class="text-xs opacity-90 mt-1">Satisfaction client</p>
@@ -96,7 +119,14 @@
             </div>
             <div class="flex items-center gap-3 justify-center md:justify-start md:pl-4">
                 <span
-                    class="w-14 h-14 rounded-full border-2 border-white bg-white flex items-center justify-center text-xl shrink-0">🎧</span>
+                    class="w-14 h-14 rounded-full border-2 border-white bg-white flex items-center justify-center text-xl shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-green-600" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    class="icon icon-tabler icons-tabler-filled icon-tabler-headset">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M12 2a9 9 0 0 1 9 9v6a3 3 0 0 1 -2.152 2.879c-.678 1.901 -3.538 3.121 -6.848 3.121a1 1 0 0 1 0 -2c1.889 0 3.482 -.482 4.334 -1.075a3 3 0 0 1 -2.334 -2.925l.001 -3.051l.004 -.051a2.995 2.995 0 0 1 2.995 -2.898h1c.351 0 .688 .06 1 .171v-.171a7 7 0 0 0 -13.996 -.24l-.004 .41c.313 -.11 .65 -.17 1 -.17h1a3 3 0 0 1 3 3v3a3 3 0 0 1 -3 3h-1a3 3 0 0 1 -3 -3v-6a9 9 0 0 1 9 -9" />
+                </svg>
+                </span>
                 <div class="text-left">
                     <p class="font-bold text-md mb-3 leading-none">24/7</p>
                     <p class="text-xs opacity-90 mt-1">Assistance</p>
