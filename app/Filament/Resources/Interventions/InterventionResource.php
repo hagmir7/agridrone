@@ -24,12 +24,6 @@ class InterventionResource extends Resource
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedBellAlert;
     // bell-alert
 
-    #[Override]
-    public static function canCreate(): bool
-    {
-        return false;
-    }
-
     protected static ?string $recordTitleAttribute = 'full_name';
 
     public static function form(Schema $schema): Schema

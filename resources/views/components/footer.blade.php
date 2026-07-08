@@ -109,14 +109,21 @@
             <!-- Map side -->
             <div class="relative rounded-2xl overflow-hidden shadow-xl group min-h-[320px] lg:min-h-0">
 
-                    <iframe class="w-full h-full grayscale-[15%]"
-                        src="https://www.openstreetmap.org/export/embed.html?bbox=-2.98%2C35.14%2C-2.90%2C35.20&layer=mapnik&marker=35.1688%2C-2.9330"
-                        style="border:0;">
-                    </iframe>
+
+               <iframe class="w-full h-full grayscale-[15%]"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-5.47393798828125%2C33.00866349457558%2C-4.188537597656251%2C33.742612777346885&amp;layer=mapnik&amp;marker=33.37641235124679%2C-4.83123779296875"
+                    style="border: 1px solid black"></iframe><br /><small><a
+                        href="https://www.openstreetmap.org/?mlat=33.3764&amp;mlon=-4.8312#map=10/33.3764/-4.8312">View Larger
+                        Map</a></small>
+
+
+
+
+                    <br/><small><a href="https://www.openstreetmap.org/export/embed.html?bbox=-5.47393798828125%2C33.00866349457558%2C-4.188537597656251%2C33.742612777346885&amp;layer=mapnik&amp;marker=33.37641235124679%2C-4.83123779296875">View Larger Map</a></small>
                 <div class="absolute inset-0 bg-gradient-to-t from-forest-900/80 via-transparent to-transparent"></div>
                 <div class="absolute bottom-5 left-5 right-5">
                     <p class="text-white font-semibold mb-3">AgriDrone Atlas — Fès-Meknès</p>
-                    <a href="https://www.openstreetmap.org/export/embed.html?bbox=-2.98%2C35.14%2C-2.90%2C35.20&layer=mapnik&marker=35.1688%2C-2.9330"
+                    <a href="https://www.openstreetmap.org/export/embed.html?bbox=-5.47393798828125%2C33.00866349457558%2C-4.188537597656251%2C33.742612777346885&amp;layer=mapnik&amp;marker=33.37641235124679%2C-4.83123779296875"
                         target="_blank"
                         class="bg-white text-forest-800 text-sm font-semibold rounded-lg px-4 py-2.5 flex items-center justify-center gap-2 hover:bg-lime-50 transition w-fit">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -135,19 +142,20 @@
     <div class="relative bg-forest-900/60 border-t border-white/10 backdrop-blur-sm">
         <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
            <a href="/" class="group">
-            <img src="/imgs/logo-transparent.png"
+            <img src="/imgs/dark-logo.png"
                 class="w-20 transition duration-500 group-hover:scale-105 group-hover:-rotate-2" alt="">
         </a>
             <p class="text-sm text-white/60">© 2026 AgriDrone Atlas. Tous droits réservés.</p>
             <div class="flex items-center gap-3">
-                <a href="#" aria-label="Facebook"
+                <a href="https://www.facebook.com/profile.php?id=61586490723431" aria-label="Facebook"
                     class="w-8 h-8 rounded-full bg-white/5 hover:bg-lime-500 flex items-center justify-center transition">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="text-white">
                         <path
                             d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6v1.9H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z" />
                     </svg>
                 </a>
-                <a href="#" aria-label="Instagram"
+
+                <a href="https://www.instagram.com/agridroneatlas/" target="_blank" aria-label="Instagram"
                     class="w-8 h-8 rounded-full bg-white/5 hover:bg-lime-500 flex items-center justify-center transition">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
                         class="text-white">

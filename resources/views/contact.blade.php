@@ -244,7 +244,7 @@
     <section class="max-w-7xl mx-auto px-6 pb-20">
         <div class="rounded-2xl overflow-hidden h-80 border border-forest-900/10">
             <iframe class="w-full h-full grayscale-[15%]"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-2.98%2C35.14%2C-2.90%2C35.20&layer=mapnik&marker=35.1688%2C-2.9330"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-5.47393798828125%2C33.00866349457558%2C-4.188537597656251%2C33.742612777346885&amp;layer=mapnik&amp;marker=33.37641235124679%2C-4.83123779296875"
                 style="border:0;">
             </iframe>
         </div>

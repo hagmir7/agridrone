@@ -16,9 +16,9 @@
     <link rel="canonical" href="{{ url()->current() }}">
 
     <!-- Favicon (using logo) -->
-    <link rel="icon" type="image/png" href="/imgs/logo-transparent.png">
-    <link rel="shortcut icon" type="image/png" href="/imgs/logo-transparent.png">
-    <link rel="apple-touch-icon" href="/imgs/logo-transparent.png">
+    <link rel="icon" type="image/png" href="/imgs/dark-logo.png">
+    <link rel="shortcut icon" type="image/png" href="/imgs/dark-logo.png">
+    <link rel="apple-touch-icon" href="/imgs/dark-logo.png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -26,7 +26,7 @@
     <meta property="og:title" content="{{ config('app.name', 'AgriDrone Atlas | Solutions de Drones Agricoles') }}">
     <meta property="og:description"
         content="Solutions de drones agricoles pour l'épandage, la cartographie et la surveillance des cultures au Maroc.">
-    <meta property="og:image" content="{{ asset('imgs/logo-transparent.png') }}">
+    <meta property="og:image" content="{{ asset('imgs/dark-logo.png') }}">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:site_name" content="AgriDrone Atlas">
 
@@ -36,7 +36,7 @@
     <meta name="twitter:title" content="{{ config('app.name', 'AgriDrone Atlas | Solutions de Drones Agricoles') }}">
     <meta name="twitter:description"
         content="Solutions de drones agricoles pour l'épandage, la cartographie et la surveillance des cultures au Maroc.">
-    <meta name="twitter:image" content="{{ asset('imgs/logo-transparent.png') }}">
+    <meta name="twitter:image" content="{{ asset('imgs/dark-logo.png') }}">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
@@ -97,7 +97,7 @@
 
                 <!-- Logo -->
                 <a href="/" class="group">
-                    <img src="/imgs/logo-transparent.png"
+                    <img src="/imgs/dark-logo.png"
                         class="w-28 transition duration-500 group-hover:scale-105 group-hover:-rotate-2" alt="">
                 </a>
 
